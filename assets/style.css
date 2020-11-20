@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.bar {
+    width: 100%;
+    margin-left: 430px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 60px;
+}
+
+
+nav .menu-header .bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav .menu-header .bar ul li a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav>.menu-header>.bar>ul>li {
+    float: left;
+}
+
+nav li a:hover {
+    background-color: #5656c2;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.gambar {
+    align-items: center;
+}
+
+.isi-gambar {}
+
+.isi-gambar img {
+    width: 100%;
+}
+
+.jadwal {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.jadwal .isi-jadwal {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.title-jadwal {
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.kiri {
+    width: 50%;
+    margin-left: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.kiri .box-kiri {
+    width: 400px;
+    padding: 30px;
+    color: #fff;
+    text-align: justify;
+    background-color: rgb(204, 105, 151);
+}
+
+.kanan {
+    width: 430px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-left: 75px;
+}
+
+.kanan h3 {
+    margin: 0;
+    padding-top: 10px;
+    height: 45px;
+    color: #fff;
+    background-color: cornflowerblue;
+}
+
+.kanan ul {}
+
+.kanan ul li {
+    list-style-type: none;
+    width: 380px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    padding: 15px;
+    padding-left: 15px;
+    border: 0.1px solid #6b6666;
+    border-radius: 5px;
+}
+
+.rekomendasi {
+    width: 100%;
+    position: relative;
+}
+
+.title-nav-rekomendasi {
+    margin-left: 60px;
+}
+
+.title-rekomendasi {
+    color: rgb(71, 13, 138);
+    font-size: 40px;
+}
+
+.bar-rekomendasi {
+    width: 100%;
+}
+
+.bar-rekomendasi ul {
+    list-style-type: none;
+    margin-top: -30px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bar-rekomendasi ul li a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bar-rekomendasi>ul>li {
+    float: left;
+}
+
+.bar-rekomendasi li a:hover {
+    background-color: #5656c2;
+}
+
+.bar-rekomendasi li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.bar-rekomendasi a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.movie-rekomendasi {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #cfd3ce;
+}
+
+.movie-rekomendasi img {
+    width: 270px;
+}
+
+.movie-rekomendasi ul {
+    list-style-type: none;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.movie-rekomendasi ul li {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.movie-rekomendasi>ul>li {
+    float: left;
+}
+
+.movie-rekomendasi li a:hover {
+    background-color: #5656c2;
+}
+
+.movie-rekomendasi li {
+    list-style-type: none;
+    margin-right: 52px;
+}
+
+footer {
+    width: 100%;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer ul li {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+footer>ul>li {
+    float: left;
+}
+
+.kiri-footer {
+    width: 650px;
+    padding: 30px;
+    color: rgb(12, 34, 82);
+}
+
+.atas-kiri-footer {
+    margin-left: 40px;
+}
+
+.atas-kiri-footer img {
+    width: 170px;
+}
+
+.sosmed {
+    position: sticky;
+    top: 0;
+}
+
+.sosmed li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.sosmed img {
+    width: 30px;
+}
+
+.kotak img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+#fb:hover,
+#ig:hover,
+#ln:hover,
+#tw:hover {
+    -webkit-transform: scale(1.58);
+    transform: scale(1.58);
+}
+
+.kanan-footer {
+    width: 650px;
+    padding: 10px;
+    color: rgb(12, 34, 82);
+}
+
+.kanan-footer ul {
+    list-style-type: none;
+    margin-top: 90px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.kanan-footer ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(12, 34, 82);
+}
+
+.kanan-footer>ul>li {
+    float: left;
+}
+
+.kanan-footer li a:hover {
+    background-color: #4c4c5a;
+}
+
+.kanan-footer li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.kanan-footer a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.kiri-footer>.kanan-footer {
+    float: left;
+}
